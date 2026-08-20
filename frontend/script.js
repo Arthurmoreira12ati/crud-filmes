@@ -1,6 +1,6 @@
 async function buscarFilmes() {
     // através do acesso a rota GET, trazer os filmes e mostrar na tela
-    const resposta = await fetch("https://crud-filmes-one.vercel.app/")
+    const resposta = await fetch("https://crud-filmes-backend.vercel.app/")
     const filmes = await resposta.json()
     const sectionFilmes = document.querySelector(".filmes")
     
